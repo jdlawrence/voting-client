@@ -75,7 +75,7 @@ describe('Voting', () =>{
     expect(winner.textContent).to.contain('Trainspotting'); 
   });
 
-  xit('renders as a pure component', () => {
+  it('renders as a pure component', () => {
     const pair = ['Trainspotting', '28 Days Later'];
     const container = document.createElement('div');
     let component = ReactDOM.render(
